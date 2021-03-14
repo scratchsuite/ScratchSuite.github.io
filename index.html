@@ -16,7 +16,9 @@
       <div class="item-container-text-wrapper"><a>Test</a><br><a>by 9gr</a></div>
     </div>
   <script>
-      window.location = $(".item-container").data("location");
+    $(".item-container").click(function() {
+      window.location = $(this).data("location");
+    }
   </script>
   </body>
 </html>
