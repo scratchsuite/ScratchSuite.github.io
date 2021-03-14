@@ -1,6 +1,6 @@
 // apps
 const apps = {
-  {
+  1: {
     "name": "Test",
     "author": "9gr",
     "url": "#",
