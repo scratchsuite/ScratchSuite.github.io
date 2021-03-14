@@ -37,8 +37,8 @@ body {
 
 .item-container-image-align {
   background-color: transparent;
-  width: 275px;
-  height: 150px;
+  width: 100%;
+  height: 60%;
 }
 
 .item-container-text-wrapper {
