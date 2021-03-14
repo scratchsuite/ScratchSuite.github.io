@@ -16,7 +16,7 @@ body {
 }
 
 .item-container-href:hover {
-  animation: smooth;
+  animation: smoooth;
   animation-duration: 0.5s;
 }
 
