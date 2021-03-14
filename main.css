@@ -15,7 +15,7 @@ body {
   background-color: #F8AC3A;
 }
 
-.item-container:hover {
+.item-container-href:hover {
   animation: smooth;
   animation-duration: 0.5s;
 }
