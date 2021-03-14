@@ -18,6 +18,8 @@ body {
 .item-container:hover {
   animation: smoooth;
   animation-duration: 0.5s;
+  height: 215px;
+  width: 300px;
 }
 
 .item-container-image-align img {
