@@ -26,5 +26,5 @@ for (let i = 0; i < apps.length; i++) {
     </div>`
 }
     $(".item-container").click(function() {
-      window.location.href = $(".item-container").data("location");
+      window.location.href = $(this).data("location");
     })
