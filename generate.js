@@ -1,12 +1,12 @@
 // apps
-const apps = {
+const apps = Object.values({
   1: {
     "name": "Test",
     "author": "9gr",
     "url": "#",
     "thumb": "https://assets.scratch.mit.edu/get_image/.%2E/b76fe3a2a3e7e5cb21da6b98ffe3af85.png"
   }
-}
+})
 
 // generate
 for (let i = 0; i < apps.length; i++) {
