@@ -25,3 +25,6 @@ for (let i = 0; i < apps.length; i++) {
       <div class="item-container-text-wrapper"><a>${apps[i].name}</a><br><a>by ${apps[i].author}</a></div>
     </div>`
 }
+    $(".item-container").click(function() {
+      window.location.href = $(".item-container").data("location");
+    })
