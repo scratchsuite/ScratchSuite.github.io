@@ -5,6 +5,12 @@ const apps = Object.values({
     "author": "9gr",
     "url": "#",
     "thumb": "https://assets.scratch.mit.edu/get_image/.%2E/b76fe3a2a3e7e5cb21da6b98ffe3af85.png"
+  },
+  2: {
+    "name": "Frontend",
+    "author": "<a href='github.com/functionalmetatable/'>FunctionalMetatable</a>",
+    "url": "https://scratchsuite.github.io/frontend",
+    "thumb": "https://assets.scratch.mit.edu/get_image/.%2E/13b1be7c81e1de0a291d9c9dd081ee43.png"
   }
 })
 
