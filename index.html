@@ -13,6 +13,9 @@
         top: 50%;
         transform: translate(-50%, -50%);
       }
+      .tag-color {
+        
+      }
     </style>
   </head>
   <body style="background-color:#F8AE3F">
@@ -21,5 +24,15 @@
         <h1>This site is currently in the works!</h1>
       </center>
     </div>
+    <script>
+      function createTag(txt, bordercolor) {
+        var tag = document.createElement("a");
+        tag.class = "tag-user";
+        var text = document.createTextNode(txt);
+        tag.appendChild(text);
+        tag.style = `border-color:${bordercolor}`;
+        return tag;
+      }
+    </script>
   </body>
 </html>
