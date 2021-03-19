@@ -20,7 +20,7 @@
         height: 70%;
         float: right;
       }
-      .appBtn {
+      #appBtn {
         background-color: #C0C0C0;
         width: 95%;
         height: 80px;
@@ -61,9 +61,9 @@
         var app = apps[i];
         // create full app div (btn)
         var appDiv = document.createElement("a");
-        appDiv.class = "appBtn";
+        appDiv.id = "appBtn";
         appDiv.href = app.url;
-        var txt = document.createTextNode(`${app.name} by ${app.scratchAuthor}`);
+        var txt = document.createTextNode(`${app.name} by ${app.scratchAuthor} <br>`);
         appDiv.appendChild(txt);
         menu.appendChild(appDiv);
       }
