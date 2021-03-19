@@ -20,7 +20,7 @@
         height: 70%;
         float: right;
       }
-      #appBtn {
+      .appBtn {
         background-color: #C0C0C0;
         width: 95%;
         height: 80px;
@@ -60,12 +60,8 @@
       for (let i=0; i<apps.length; i++) {
         var app = apps[i];
         // create full app div (btn)
-        var appDiv = document.createElement("a");
-        appDiv.id = "appBtn";
-        appDiv.href = app.url;
-        var txt = document.createTextNode(`${app.name} by ${app.scratchAuthor} <br>`);
-        appDiv.appendChild(txt);
-        menu.appendChild(appDiv);
+        var div = `<a href="${app.url}" class="appBtn"> ${app.name} by <a href="https://scratch.mit.edu/users/${app.scratchAuthor}">${app.scratchAuthor}</a> (<a href="https://github.com/${app.scratchAuthor}">github</a>)`
+        document.body.innerHTML += div;
       }
     </script>
   </body>
