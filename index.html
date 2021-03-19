@@ -13,16 +13,23 @@
         top: 50%;
         transform: translate(-50%, -50%);
       }
-      .tag-color {
-        
+      .menu {
+        border-color: black;
+        width: 60%;
+        height: 70%;
       }
     </style>
+    <noscript>
+      <h1> Please enable JavaScript on this page! </h1>
+    </noscript>
   </head>
   <body style="background-color:#F8AE3F">
     <div class="child" style="width:50%; height:50%; background-color:white;" >
       <center id="main">
         <h1>ScratchSuite</h1>
         <a>Welcome to ScratchSuite! Press the button to go to a website!</a>
+        <div class="menu">
+        </div>
       </center>
     </div>
     <script>
@@ -34,7 +41,21 @@
         tag.style = `border-color:${bordercolor}`;
         return tag;
       };
-      
+      const apps = [
+        {
+          "name": "ScratchSuite",
+          "githubAuthor": "FunctionalMetatable",
+          "scratchAuthor": "9gr",
+          "tags": ["verified"]
+        }
+      ];
+      var menu = document.getElementsByClass("menu")[0]
+      for (let i=0; i<apps.length; i++) {
+        var app = apps[i];
+        // create full app div (btn)
+        var appDiv = document.createElement("div");
+        appDiv.class = "appBtn";
+      }
     </script>
   </body>
 </html>
