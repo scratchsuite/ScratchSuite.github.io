@@ -63,11 +63,8 @@
         var appDiv = document.createElement("a");
         appDiv.class = "appBtn";
         appDiv.href = app.url;
-        var name = document.createElement("a");
-        name.class = "appBtn-data";
         var txt = document.createTextNode(`${app.name} by ${app.scratchAuthor}`);
-        name.appendChild(txt);
-        appDiv.appendChild(name);
+        appDiv.appendChild(txt);
         menu.appendChild(appDiv);
       }
     </script>
