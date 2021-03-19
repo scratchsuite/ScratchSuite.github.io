@@ -28,6 +28,11 @@
         height: 80px;
         border-radius: 25px;
       }
+      .appBtn-img-wrapper {
+        float: right;
+        width: 70px;
+        height: 70px;
+      }
     </style>
     <noscript>
       <h1> Please enable JavaScript on this page! </h1>
@@ -80,7 +85,9 @@
       for (let i=0; i<apps.length; i++) {
         var app = apps[i];
         // create full app div (btn)
-        var div = `<div class="appBtn"><a href="${app.url}"> ${app.name} by <a href="https://scratch.mit.edu/users/${app.scratchAuthor}">${app.scratchAuthor}</a> <a href="https://github.com/${app.gitURL}"><img src="github_PNG40.png" width="50px" height="50px"></img></a></div><br>`
+        var div = `<div class="appBtn"><a href="${app.url}"> ${app.name} by <a href="https://scratch.mit.edu/users/${app.scratchAuthor}">${app.scratchAuthor}</a> <a href="https://github.com/${app.gitURL}">
+        <div class="appBtn-img-wrapper"><img src="github_PNG40.png" width="90%" height="90%"></img></div>
+        </a></div><br>`
         menu.innerHTML += div;
       }
     </script>
