@@ -85,8 +85,8 @@
       for (let i=0; i<apps.length; i++) {
         var app = apps[i];
         // create full app div (btn)
-        var div = `<div class="appBtn"><a href="${app.url}"> ${app.name} by <a href="https://scratch.mit.edu/users/${app.scratchAuthor}">${app.scratchAuthor}</a> <a href="https://github.com/${app.gitURL}">
-        </a></div><br>`
+        var div = `<a href="https://github.com/${app.gitURL}"><div class="appBtn"><center><a href="${app.url}"> ${app.name} by <a href="https://scratch.mit.edu/users/${app.scratchAuthor}">${app.scratchAuthor}</a> <a href="https://github.com/${app.gitURL}">
+        </a></center></div></a><br>`
         menu.innerHTML += div;
       }
     </script>
