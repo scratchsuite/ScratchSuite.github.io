@@ -16,7 +16,7 @@ var apps = [
   {
     name: "Backend",
     repository: "scratchsuite/Backend",
-    owner: "FunctionalMetatable",
+    owner: "ScratchSuite",
     url: "//scratchsuite.github.io/backend"
   },
 ];
