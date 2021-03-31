@@ -1,102 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- Required tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <!-- Page info -->
     <title>ScratchSuite</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-      body {
-        font-family: 'Roboto Slab', serif;
-      }
-      .child {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-      }
-      .menu {
-        border-color: #000000;
-        border-width: 8px;
-        width: 60%;
-        height: 70%;
-        float: right;
-        overflow-x: hidden;
-        overflow-y: auto;
-      }
-      .appBtn {
-        background-color: #C0C0C0;
-        width: 95%;
-        height: 80px;
-        border-radius: 25px;
-      }
-      .appBtn-img-wrapper {
-        float: right;
-        width: 100%;
-        height: 70px;
-      }
-    </style>
-    <noscript>
-      <h1> Please enable JavaScript on this page! </h1>
-    </noscript>
+    <link rel="favicon" href="https://avatars.githubusercontent.com/u/80575126?s=200&v=4">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/80575126?s=200&v=4">
+
+    <!-- Bootstrap CSS and JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- ScratchSuite CSS and JS -->
+    <link rel="stylesheet" href="ss.css">
   </head>
-  <body style="background-color:#F8AE3F">
-    <div class="child" style="width:50%; height:50%; background-color:white;" >
-      <center id="main">
-        <h1>ScratchSuite</h1>
-        <a>Welcome to ScratchSuite! Press the button to go to a website!</a>
-      </center>
-      <div class="menu" id="menu"></div>
+  <body>
+    <div class="row">
     </div>
-    <script>
-      function createTag(txt, bordercolor) {
-        var tag = document.createElement("a");
-        tag.class = "tag-user";
-        var text = document.createTextNode(txt);
-        tag.appendChild(text);
-        tag.style = `border-color:${bordercolor}`;
-        return tag;
-      };
-      const apps = [
-        {
-          "name": "ScratchSuite",
-          "githubAuthor": "FunctionalMetatable",
-          "scratchAuthor": "9gr",
-          "tags": ["verified"],
-          "url": "https://scratchsuite.github.io",
-          "gitURL": "scratchstatus"
-        },
-        {
-          "name": "Frontend",
-          "githubAuthor": "FunctionalMetatable",
-          "scratchAuthor": "9gr",
-          "tags": ["verified"],
-          "url": "https://scratchsuite.github.io/frontend",
-          "gitURL": "scratchstatus/frontend"
-        },
-        {
-          "name": "Backend",
-          "githubAuthor": "FunctionalMetatable",
-          "scratchAuthor": "9gr",
-          "tags": ["verified"],
-          "url": "https://scratchsuite.github.io/backend",
-          "gitURL": "scratchstatus/backend"
-        },
-        {
-          "name": "The Archived Scratch Forums",
-          "githubAuthor": "asun",
-          "scratchAuthor": "comp09",
-          "tags": ["forums"],
-          "url": "https://scratcharchive.asun.co/forums/",
-          "gitURL": ""
-        }
-      ];
-      var menu = document.getElementById("menu");
-      for (let i=0; i<apps.length; i++) {
-        var app = apps[i];
-        // create full app div (btn)
-        var div = `<a href="https://github.com/${app.gitURL}"><div class="appBtn"><center><a href="${app.url}"> ${app.name} by <a href="https://scratch.mit.edu/users/${app.scratchAuthor}">${app.scratchAuthor}</a> <a href="https://github.com/${app.gitURL}">
-        </a></center></div></a><br>`
-        menu.innerHTML += div;
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
