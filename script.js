@@ -19,20 +19,6 @@ var apps = [
     owner: "FunctionalMetatable",
     url: "//scratchsuite.github.io/backend"
   },
-  {
-    name: "Ocular",
-    repository: "jeffalo/ocular",
-    owner: "Jeffalo",
-    ownerPage: "//jeffalo.net",
-    url: "//ocular.jeffalo.net"
-  },
-  {
-    name: "my-ocular",
-    repository: "jeffalo/ocular",
-    owner: "Jeffalo",
-    ownerPage: "//jeffalo.net",
-    url: "//my-ocular.jeffalo.net"
-  }
 ];
 
 for (let i=0;i<apps.length;i++) {
