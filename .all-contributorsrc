@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "FunctionalMetatable",
+      "name": "9gr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67440879?v=4",
+      "profile": "http://scratch.mit.edu/users/9gr",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "scratchsuite.github.io",
+  "projectOwner": "scratchsuite",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
