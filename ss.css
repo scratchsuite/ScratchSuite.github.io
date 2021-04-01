@@ -7,6 +7,7 @@
 .col {
   border-radius: 10%;
   background-color: #FFFF;
+  
 }
 
 a :hover {
@@ -16,7 +17,7 @@ a :hover {
 body {
   background-color:#F8AE3F;
   margin-left: 10%;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 10%;
 }
 
