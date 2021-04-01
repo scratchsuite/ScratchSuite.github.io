@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Basic8",
+      "name": "Basic88",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79813647?v=4",
+      "profile": "https://github.com/Basic8",
+      "contributions": [
+        "ideas",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "scratchsuite.github.io",
+  "projectOwner": "scratchsuite",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
