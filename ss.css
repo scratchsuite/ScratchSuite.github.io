@@ -89,6 +89,7 @@ body {
   height: 10px;
   border-radius: 10%;
   background-color: aqua;
+  padding: 5px;
 }
 
 .app-div-whitespace-border {
